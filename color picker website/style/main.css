@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background: #e9e8e8;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #dadada;
+  padding: 30px;
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.3), -10px -10px 15px 0 rgba(255, 255, 255, 0.5);
+          box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.3), -10px -10px 15px 0 rgba(255, 255, 255, 0.5);
+}
+
+.container .level {
+  cursor: all-scroll;
+  margin: 20px;
+  width: 300px;
+  height: 30px;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.3), -10px -10px 12px 0 rgba(255, 255, 255, 0.7);
+          box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.3), -10px -10px 12px 0 rgba(255, 255, 255, 0.7);
+}
+
+.container .level:focus {
+  outline: none;
+}
+
+.container .level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5), -2px -2px 5px 0 rgba(55, 202, 190, 0.5);
+          box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5), -2px -2px 5px 0 rgba(55, 202, 190, 0.5);
+}
+
+.container #red {
+  background: rgba(255, 0, 0, 0.392);
+}
+
+.container #green {
+  background: rgba(60, 196, 83, 0.392);
+}
+
+.container #blue {
+  background: rgba(44, 133, 184, 0.392);
+}
+/*# sourceMappingURL=main.css.map */
